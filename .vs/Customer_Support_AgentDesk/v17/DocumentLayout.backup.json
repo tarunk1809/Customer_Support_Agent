@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|d:\\vs2022 projects\\servlens projects\\customer_support_agentdesk\\agent_login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|solutionrelative:agent_login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\agent_login\\agentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|solutionrelative:agent_login\\agentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EC8B36-B309-417C-A9C9-46840BAD47E8}|Login\\Login.csproj|D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\login\\agent_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7EC8B36-B309-417C-A9C9-46840BAD47E8}|Login\\Login.csproj|solutionrelative:login\\agent_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\agent_login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|solutionrelative:agent_login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\agent_login\\agentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|solutionrelative:agent_login\\agentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\agent_login\\utils\\uistyles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20024A3E-7C86-440C-B318-D97289F5F6C7}|Agent_Login\\Agent_Login.csproj|solutionrelative:agent_login\\utils\\uistyles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 143,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgentDashBoard.cs",
+              "DocumentMoniker": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\AgentDashBoard.cs",
+              "RelativeDocumentMoniker": "Agent_Login\\AgentDashBoard.cs",
+              "ToolTip": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\AgentDashBoard.cs",
+              "RelativeToolTip": "Agent_Login\\AgentDashBoard.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:04:04.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgentDashBoard.cs [Design]",
+              "DocumentMoniker": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\AgentDashBoard.cs",
+              "RelativeDocumentMoniker": "Agent_Login\\AgentDashBoard.cs",
+              "ToolTip": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\AgentDashBoard.cs [Design]",
+              "RelativeToolTip": "Agent_Login\\AgentDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:59:52.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Agent_Login.cs [Design]",
+              "DocumentMoniker": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Login\\Agent_Login.cs",
+              "RelativeDocumentMoniker": "Login\\Agent_Login.cs",
+              "ToolTip": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Login\\Agent_Login.cs [Design]",
+              "RelativeToolTip": "Login\\Agent_Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T05:00:06.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UiStyles.cs",
+              "DocumentMoniker": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\Utils\\UiStyles.cs",
+              "RelativeDocumentMoniker": "Agent_Login\\Utils\\UiStyles.cs",
+              "ToolTip": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\Utils\\UiStyles.cs",
+              "RelativeToolTip": "Agent_Login\\Utils\\UiStyles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:09:41.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Agent_Login\\LoginForm.cs",
+              "ToolTip": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Agent_Login\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:05:17.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Agent_Login\\LoginForm.cs",
+              "ToolTip": "D:\\VS2022 Projects\\Servlens Projects\\Customer_Support_AgentDesk\\Agent_Login\\LoginForm.cs",
+              "RelativeToolTip": "Agent_Login\\LoginForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA6wBwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T10:12:25.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

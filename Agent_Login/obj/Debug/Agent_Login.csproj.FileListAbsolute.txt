@@ -1,0 +1,11 @@
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.csproj.AssemblyReference.cache
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.LoginForm.resources
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.Properties.Resources.resources
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.csproj.GenerateResource.cache
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.csproj.CoreCompileInputs.cache
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\bin\Debug\Agent_Login.exe.config
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\bin\Debug\Agent_Login.exe
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\bin\Debug\Agent_Login.pdb
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.exe
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.pdb
+D:\VS2022 Projects\Servlens Projects\Customer_Support_AgentDesk\Agent_Login\obj\Debug\Agent_Login.AgentDashBoard.resources
