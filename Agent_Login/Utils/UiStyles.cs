@@ -80,7 +80,7 @@ namespace Agent_Login.Utils
             };
         }
 
-        // Private helper for rounded shapes
+        // Private helper for rounded shapes round
         private static GraphicsPath RoundedRect(Rectangle bounds, int radius)
         {
             int d = radius * 2;

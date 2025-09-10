@@ -68,7 +68,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 13F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(63, 406);
+            this.label3.Location = new System.Drawing.Point(63, 378);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 36);
             this.label3.TabIndex = 3;
@@ -79,7 +79,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 13F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(63, 347);
+            this.label2.Location = new System.Drawing.Point(63, 325);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 36);
             this.label2.TabIndex = 2;
@@ -90,7 +90,7 @@
             this.lblAppTitle.AutoSize = true;
             this.lblAppTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 13F);
             this.lblAppTitle.ForeColor = System.Drawing.Color.White;
-            this.lblAppTitle.Location = new System.Drawing.Point(58, 293);
+            this.lblAppTitle.Location = new System.Drawing.Point(63, 265);
             this.lblAppTitle.Name = "lblAppTitle";
             this.lblAppTitle.Size = new System.Drawing.Size(136, 36);
             this.lblAppTitle.TabIndex = 1;
@@ -100,7 +100,7 @@
             // pictureLogo
             // 
             this.pictureLogo.Image = global::Agent_Login.Properties.Resources.help_desk;
-            this.pictureLogo.Location = new System.Drawing.Point(35, 57);
+            this.pictureLogo.Location = new System.Drawing.Point(49, 23);
             this.pictureLogo.Name = "pictureLogo";
             this.pictureLogo.Size = new System.Drawing.Size(200, 200);
             this.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -117,10 +117,11 @@
             this.panelRight.Controls.Add(this.lblEmail);
             this.panelRight.Controls.Add(this.label1);
             this.panelRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelRight.Location = new System.Drawing.Point(350, 0);
+            this.panelRight.Location = new System.Drawing.Point(344, 0);
             this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(428, 611);
+            this.panelRight.Size = new System.Drawing.Size(431, 611);
             this.panelRight.TabIndex = 1;
+            this.panelRight.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRight_Paint);
             // 
             // panelTop
             // 
@@ -131,19 +132,18 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(428, 40);
+            this.panelTop.Size = new System.Drawing.Size(431, 40);
             this.panelTop.TabIndex = 7;
             // 
             // btnMinimize
             // 
-            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Location = new System.Drawing.Point(284, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(287, 3);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(40, 40);
+            this.btnMinimize.Size = new System.Drawing.Size(40, 34);
             this.btnMinimize.TabIndex = 2;
-            this.btnMinimize.Text = "-";
+            this.btnMinimize.Text = "  -";
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
@@ -152,7 +152,7 @@
             this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximize.Location = new System.Drawing.Point(321, 3);
+            this.btnMaximize.Location = new System.Drawing.Point(324, 3);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(48, 34);
             this.btnMaximize.TabIndex = 1;
@@ -166,7 +166,7 @@
             this.btnClose.BackColor = System.Drawing.Color.White;
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(375, 3);
+            this.btnClose.Location = new System.Drawing.Point(378, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(40, 34);
             this.btnClose.TabIndex = 0;
@@ -176,11 +176,17 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Blue;
+            this.btnLogin.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(125, 387);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(88, 38);
+            this.btnLogin.Size = new System.Drawing.Size(180, 45);
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -189,16 +195,17 @@
             // txtPassword
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPassword.Location = new System.Drawing.Point(125, 281);
+            this.txtPassword.Location = new System.Drawing.Point(39, 282);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(300, 34);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(120, 250);
+            this.lblPassword.Location = new System.Drawing.Point(39, 235);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(93, 28);
             this.lblPassword.TabIndex = 3;
@@ -207,15 +214,16 @@
             // txtUsername
             // 
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUsername.Location = new System.Drawing.Point(125, 212);
+            this.txtUsername.Location = new System.Drawing.Point(39, 198);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(300, 34);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(120, 170);
+            this.lblEmail.Location = new System.Drawing.Point(39, 155);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(59, 28);
             this.lblEmail.TabIndex = 1;
@@ -226,7 +234,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 18F);
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(200, 80);
+            this.label1.Location = new System.Drawing.Point(125, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 48);
             this.label1.TabIndex = 0;
@@ -238,7 +246,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(778, 611);
+            this.ClientSize = new System.Drawing.Size(775, 611);
             this.Controls.Add(this.panelRight);
             this.Controls.Add(this.panelLeft);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);

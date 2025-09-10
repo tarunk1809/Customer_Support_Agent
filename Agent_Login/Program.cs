@@ -17,6 +17,7 @@ namespace Agent_Login
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginForm());
+            //Application.Run(new ChatForm());
         }
     }
 }
